@@ -1,8 +1,7 @@
 .form {
-text-align: center;
-background-color: #a7a7a7;
-border-style: solid;
-margin-top: 20%
+    text-align: center;
+    background-color: #a7a7a7;
+    border-style: solid;
 }
 
 form{
@@ -13,4 +12,9 @@ form{
 
 input{
     margin-top: 10px
+}
+
+#overskrift {
+    font-size: 30px;
+    text-align: center;
 }
