@@ -5,6 +5,7 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel = "stylesheet" type="text/css" href = "style.css">
+        <script src="script.js"></script>
     </head>
     <body>
 
@@ -14,7 +15,7 @@
 
 
         <div class="form">
-            <form action="http://folk.ntnu.no/michaedm/norwegian-tax-administration/receive.php" method="post">
+            <form action="http://folk.ntnu.no/michaedm/norwegian-tax-administration/receive.php" method="post" name="myForm">
             Real name: <br>
             <input type ="text" name = "realname" required><br>
             Gender<br>
@@ -28,7 +29,7 @@
             <input type = "text" name="hero" required><br>
             Do you wear spandex?<br>
             <input type="checkbox" name = "spandex" value="yes" required> Yes
-            <input type="checkbox" name = "spandex" value="no" required>No <br>
+            <input type="checkbox" name = "spandex" value="no">No <br>
             Strength<br>
             <input type = "number" name="strength" min="1" max = "10" required><br>
             Speed<br>
@@ -36,14 +37,13 @@
             Intelligence<br>
             <input type = "number" name="intelligence" min="1" max = "10" required><br>
             Income<br>
-            <input type="number" name = "income" min = "0" required><br>
+            <input type="number" name = "income" min = "0" required oninput="calculateTax()"><br>
             Wealth<br>
-            <input type = "number" name = "wealth" min="0" required><br>
+            <input type = "number" name = "wealth" min="0" required oninput="calculateTax()"><br>
             Tax<br>
             <input type = "number" name="tax" disabled><br>
             <input type="submit" name="submit" required>
             </form>
         </div>
-
     </body>
 </html>
