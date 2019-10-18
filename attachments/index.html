@@ -16,26 +16,26 @@
         <div class="form">
             <form action="http://folk.ntnu.no/michaedm/norwegian-tax-administration/receive.php" method="post">
             Real name: <br>
-            <input type ="text" name = "realname"><br>
+            <input type ="text" name = "realname" required><br>
             Gender<br>
-            <input type="radio" name = "gender" value="male"> Male
+            <input type="radio" name = "gender" value="male" required> Male
             <input type="radio" name = "gender" value="female"> Female<br>
             E-mail<br>
-            <input type="email" name = "email"><br>
+            <input type="email" name = "email" required><br>
             Birthday<br>
-            <input type="date" name = "birthdate"><br>
+            <input type="date" name = "birthdate" required max="1988-12-31"><br>
             Hero name<br>
-            <input type = "text" name="hero"><br>
+            <input type = "text" name="hero" required><br>
             Do you wear spandex?<br>
-            <input type="checkbox" name = "spandex" value="yes"> Yes
-            <input type="checkbox" name = "spandex" value="no">No <br>
+            <input type="checkbox" name = "spandex" value="yes" required> Yes
+            <input type="checkbox" name = "spandex" value="no" required>No <br>
             Strength<br>
-            <input type = "number" name="strength" min="1" max = "10"><br>
+            <input type = "number" name="strength" min="1" max = "10" required><br>
             Speed<br>
-            <input type = "number" name="speed" min="1" max = "10"><br>
+            <input type = "number" name="speed" min="1" max = "10" required><br>
             Intelligence<br>
-            <input type = "number" name="intelligence" min="1" max = "10"><br>
-            <input type="submit" name="submit">
+            <input type = "number" name="intelligence" min="1" max = "10" required><br>
+            <input type="submit" name="submit" required>
             </form>
         </div>
 
