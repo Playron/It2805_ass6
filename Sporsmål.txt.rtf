@@ -1,0 +1,34 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2509
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica-Bold;\f1\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\b\fs24 \cf0 1. Why does the following expression 0.1 + 0.2 === 0.3 evaluate to false in Javascript?\
+
+\f1\b0 Most programming languages is based on the IEEE 754 standard. One reason 0.1 + 0.2 === 0.3 = false is a consequence of the floating point math programming languages is using. When calculating 0.1 + 0.2 and printing ut to the console with javascript, the output is 0.30000000000000004. Javascript uses a 64-bit floating point representation, and these inconsistencies will occur because computers use base 2, while decimal uses base 10.\
+\
+
+\f0\b 2. What does the method attribute on a form element decide?\
+
+\f1\b0 The method attribute on a form element decides how to send the form data to the server. The form methods are GET and POST. \
+\
+
+\f0\b 3. Explain why the form fields appear in the URL when the method on form element is\
+changed to GET ?\
+
+\f1\b0 GET is one of the implemented HTTP methods, and is used to request data from a specific source. Simply one of the characteristic of the GET method is that the query string will be sent in the URL. This is also apparent when not using forms. You should not use the GET method if some form or other element on your web page includes sensitive information.
+\f0\b \
+
+\f1\b0 \
+
+\f0\b 4. Why is it considered bad practice to only validate form input with HTML5 and/or\
+Javascript?
+\f1\b0 \
+It is always important to validate form input on the client-side (javascript, html) but it is good practice to also validate the data on the server-side. Here you must validate the the data is safe. The required attribute in HTML can be manipulated by a malicious user.\
+\
+
+\f0\b 5. When is it appropriate to use textarea over input ?\
+
+\f1\b0 It as appropriate to use textarea over input when the input size is large. For example in a forum, if you would like to add a new forum post that should not be restricted by input size, you should use texture instead of input. Input is fine to use when input is small, for example name, occupation etc.}
