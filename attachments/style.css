@@ -2,10 +2,15 @@
 text-align: center;
 background-color: #a7a7a7;
 border-style: solid;
+margin-top: 20%
 }
 
 form{
     padding-top: 10px;
     padding-bottom: 10px;
 
+}
+
+input{
+    margin-top: 10px
 }
