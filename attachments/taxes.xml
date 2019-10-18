@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<Tax>
+   <Person>
+      <RealName>Nick Nedd</RealName>
+      <Gender>Male</Gender>
+      <Email>nick@tick.com</Email>
+      <Birthyear>1976</Birthyear>
+      <HeroName>The Tick</HeroName>
+   </Person>
+
+   <Person>
+      <RealName>Bruce Wayne</RealName>
+      <Gender>Male</Gender>
+      <Email>bruce@wayneenterprises.com</Email>
+      <Birthyear>1974</Birthyear>
+      <HeroName>Batman</HeroName>
+   </Person>
+
+   <Person>
+      <RealName>Selina Kyle</RealName>
+      <Gender>Female</Gender>
+      <Email>selina@whiskas.com</Email>
+      <Birthyear>1977</Birthyear>
+      <HeroName>Catwoman</HeroName>
+   </Person>
+</Tax>
